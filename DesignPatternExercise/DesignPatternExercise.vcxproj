@@ -128,11 +128,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Amphibian.cpp" />
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Flying.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Swimming.cpp" />
+    <ClCompile Include="Walking.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Player.h" />
+    <ClInclude Include="Amphibian.h" />
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="Flying.h" />
+    <ClInclude Include="Swimming.h" />
+    <ClInclude Include="Walking.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
